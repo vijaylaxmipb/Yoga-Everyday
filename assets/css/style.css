@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*General Styles*/
+body {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   color: bisque;
+}
+
+/*Header*/
+header {
+    background-color: lightgoldenrodyellow;
+}
+
+/*Main Content*/
+main{
+    background-color: grey;
+    flex:1 0 auto;
+}
+
+/*Footer*/
+footer{
+    background-color: brown;
+}
