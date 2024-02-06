@@ -36,7 +36,19 @@ h1{
     font-family: 'Oswald' ,sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    color:mediumvioletred;
+    color:firebrick;
+    letter-spacing: 1px;
+}
+
+#menu {
+    font-size: large;
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+.active {
+    border-bottom: 1px solid black;
+    
 }
 
 /*Main Content*/
