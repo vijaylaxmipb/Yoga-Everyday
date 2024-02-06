@@ -48,7 +48,17 @@ h1{
 
 .active {
     border-bottom: 1px solid black;
-    
+
+}
+
+nav {
+    position: absolute;
+    color: white;
+    padding: 0 2rem;
+    nav-left: auto;
+    width: 100%;
+    box-shadow: 0 1px 1px black;
+    display: none;
 }
 
 /*Main Content*/
