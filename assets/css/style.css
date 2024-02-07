@@ -93,17 +93,17 @@ footer {
     /* Header */
     nav {
         display: block;
-        position: relative;
+        position: absolute;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 2rem;
     }
 
           #menu {
               display: flex;
           }
     
-          #menu>li {
+          #menu >li {
               padding-left: 2rem;
           }
 }
