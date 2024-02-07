@@ -27,11 +27,8 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 0 2rem;
-    position:fixed;
-    z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px lightslategray;
+    box-shadow: 0 2px 2px grey;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -46,7 +43,7 @@ h1 {
     font-family: 'Bree serif', sans-serif;
     text-transform: capitalize;
     letter-spacing: 0px;
-    color: lightgreen;
+    color: black;
 }
 
 #menu {
@@ -63,7 +60,7 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles with dropdown toggle */
+/* Navbar styles */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -90,14 +87,19 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top:  5px;
+}
+
+#yoga {
+    height: 700px;
+    width: 100%;
+    background: url("../images/yoga\ meditation.webp") no-repeat center center/cover;
 }
 
 /* Footer */
-#social-media {
+\yoga.jpg#social-media {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -117,7 +119,7 @@ main {
     /* Header */
     nav {
         display: block;
-        position: absolute;
+        position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 2rem;
@@ -128,7 +130,7 @@ main {
     }
 
     #menu>li {
-        padding-left: 1rem;
+        padding-left: 2rem;
     }
 
     .nav-toggle-label {
@@ -136,21 +138,21 @@ main {
     }
 
     #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
+        font-size: 250%;
+        line-height: 85px;
+        margin: 0 1rem;
     }
 
     /* Main content */
     main {
         
-        margin-top: 65px;
+        margin-top: 5px;
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 2px solid #3a3a3a;
     }
 }
