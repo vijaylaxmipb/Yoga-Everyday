@@ -33,7 +33,7 @@ header {
 
 header a{
     text-decoration: double;
-    color:darkslateblue;
+    color:lightblue;
 }
 h1{
     font-family: 'Lexend' sans-serif;
@@ -78,14 +78,29 @@ nav {
 }
 /*Main Content*/
 main {
-    background-color: grey;
+    background-color: lightblue;
     flex: 1 0 auto;
 }
 
 /*Footer*/
 footer {
-    background-color: brown;
+    background-color:grey;
 }
+
+#social-media {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 200%;
+    padding: 6%;
+    color: black;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
