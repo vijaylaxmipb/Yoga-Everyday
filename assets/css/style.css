@@ -41,9 +41,16 @@ header {
     align-items: baseline;
 }
 
+
 header a {
     text-decoration: none;
     color: gray;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 
@@ -101,7 +108,7 @@ main {
 }
 
 #cover-text {
-    background-color:rgba(255, 115, 0, 0.521);
+    background-color:rgba(255, 0, 85, 0.719);
     font-size: 150%;
     width: 70%;
     min-height: 200px;
@@ -111,9 +118,43 @@ main {
 }
 
 #cover-text > h2, #cover-text >h3 {
-    color:antiquewhite;
+    color:whitesmoke;
+    font-family:'Times New Roman', Times, serif;
 }
 
+/* Reasons section */
+#reasons {
+    width: 70%;
+    margin: 30px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 300%;
+}
+
+#benefits-physical>div, {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 40px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+
+#benefits-image {
+    background: url("../images/group-young-people-child-pose-close-up_1163-4969.avif") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Footer */
 #social-media {
     text-align: center;
@@ -129,7 +170,7 @@ main {
     color: black;
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: tablets and larger (768px and above ) */
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -166,7 +207,8 @@ main {
     }
     #cover-text {
         width: 300px;
-        left:20px;
+        left:10px;
+        bottom: 10px;
     }
 
         
