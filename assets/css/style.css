@@ -24,6 +24,13 @@ body {
 
 }
 
+h1, h2, h3 {
+    font-family: 'Bree serif', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    color: black;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -39,12 +46,6 @@ header a {
     color: gray;
 }
 
-h1 {
-    font-family: 'Bree serif', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 0px;
-    color: black;
-}
 
 #menu {
     font-size: 110%;
@@ -95,11 +96,26 @@ main {
 #yoga {
     height: 700px;
     width: 100%;
-    background: url("../images/yoga\ meditation.webp") no-repeat center center/cover;
+    background: url("../images/women\ yoga\ fitnes.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color:rgba(255, 115, 0, 0.521);
+    font-size: 150%;
+    width: 70%;
+    min-height: 200px;
+    bottom: 30px;
+    position: absolute;
+
+}
+
+#cover-text > h2, #cover-text >h3 {
+    color:antiquewhite;
 }
 
 /* Footer */
-\yoga.jpg#social-media {
+#social-media {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -148,6 +164,12 @@ main {
         
         margin-top: 5px;
     }
+    #cover-text {
+        width: 300px;
+        left:20px;
+    }
+
+        
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
