@@ -28,7 +28,7 @@ h1, h2, h3 {
     font-family: 'Bree serif', sans-serif;
     text-transform: capitalize;
     letter-spacing: 0px;
-    color: black;
+    color:blue;
 }
 
 /* Header */
@@ -36,14 +36,17 @@ header {
     background-color: #ffffff;
     width: 100%;
     box-shadow: 0 2px 2px grey;
+    padding: 0 1rem;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+
 }
 
 
 header a {
-    text-decoration: none;
+    text-decoration:dashed;
     color: gray;
 }
 
@@ -122,10 +125,48 @@ main {
     font-family:'Times New Roman', Times, serif;
 }
 
-/* Reasons section */
+/*benifits section*/
+#benefits {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align:justify;
+    }
+#benefits h2 {
+    margin-bottom: 20px;
+    font-size: 400%;
+    color:chocolate;
+    display: flex;
+    text-align: center;
+
+}
+
+#health-benefits > div {
+    color: firebrick;
+    padding: 1rem 1.5 rem;
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+
+#health-benefits h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits p {
+    padding: 0 40px;
+
+}
+
+
+/* Reasons section 
 #reasons {
-    width: 70%;
+    width: 100%;
     margin: 30px auto;
+    display: flex;
+    flex-direction:row;
 }
 
 #reasons h2 {
@@ -134,10 +175,10 @@ main {
     font-size: 300%;
 }
 
-#benefits-physical>div, {
+#health-benefits > div, {
     line-height: 20px;
     margin-bottom: 20px;
-}
+   
 
 #benefits p {
     padding: 0 40px;
@@ -150,11 +191,17 @@ main {
 
 
 #benefits-image {
-    background: url("../images/group-young-people-child-pose-close-up_1163-4969.avif") no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+*/
+/*#yoga-poses-bg {
+    background: url('../images/pexels-photo-6787218.jpeg') no-repeat top center / cover;
+    height: 30vw;
+    width: 300vw;
+    margin-bottom: 20px;
+}*/
 /* Footer */
 #social-media {
     text-align: center;
@@ -198,7 +245,15 @@ main {
         font-size: 250%;
         line-height: 85px;
         margin: 0 1rem;
+        display: none;
     }
+
+    #logo a {
+        width:50%;
+        display:initial;
+
+    }
+
 
     /* Main content */
     main {
